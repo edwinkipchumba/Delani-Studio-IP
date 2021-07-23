@@ -33,3 +33,12 @@
     background-position: center;
     height: auto;
 }
+.job-text{
+    text-align: center;
+    
+}
+.services-icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
