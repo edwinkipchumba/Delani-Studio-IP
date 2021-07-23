@@ -54,3 +54,13 @@
     justify-content: space-between;
     justify-items: center;
 }
+.details{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+#form{
+    background-image: url("assets/backgrounds/c_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
