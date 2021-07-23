@@ -9,7 +9,7 @@ Get Live link page here,
 https://github.com/edwinkipchumba/Delani-Studio-IP
 
 Behaviour Driven Development (BDD)
-Page loads, user arrives in the landing page, a list of all what to do and portfolio available is displayed.	The user can click on submit button for any particular information.
+Page loads, user arrives in the landing page, a list of all what to do and portfolio available is displayed.The user can click on submit button for any particular information.
 
 Setup/installation Requirements
 This program requires editor Code of your choice installed, a guide on how to install Visual Studio Code on terminal:
