@@ -2,5 +2,19 @@
     font-family: 'Roboto', sans-serif;
 }
 .welcome{
+    background-image: url(assets/backgrounds/h_img.jpg);
+    background-size: 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.welcome{
+    text-align: center; 
+    padding-top: 385px; 
+    color: white;
+}
+.delani-logo{
     text-align: center;
+    padding-top: 200px;
 }
