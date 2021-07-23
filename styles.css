@@ -42,3 +42,15 @@
     justify-content: center;
     justify-content: space-between;
 }
+.portfolio-1st-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+.portfolio-2nd-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
