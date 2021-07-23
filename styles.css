@@ -1,7 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-.welcome{
+.header-section{
     background-image: url(assets/backgrounds/h_img.jpg);
     background-size: 800px;
     height: 800px;
@@ -21,4 +21,15 @@
 }
 .about-us{
     text-align: center;
+}
+.services{
+    text-align: center;
+    color: white;
+}
+.service-section{
+    background-image: url(assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
 }
