@@ -33,34 +33,59 @@
     background-position: center;
     height: auto;
 }
-.job-text{
-    text-align: center;
-    
-}
 .services-icons{
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    padding-top: 50px;
+}
+.service-job{
+    text-align: center;
+}
+.portfolio-container{
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.portfolio-container h2{
+    text-align: center;
 }
 .portfolio-1st-holder{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
+    margin: 10px 10px;
+    justify-content: space-evenly;
 }
 .portfolio-2nd-holder{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-items: center;
 }
 .details{
-    display: flex;
-    justify-content: space-between;
-    opacity: 0.9;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: white;
 }
 #form{
     background-image: url("assets/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
+    text-align: center;
+}
+#form h2{
+text-align: center;
+}
+.social-icon_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.footer{
+    text-align: center;
+}
+@media screen {
+    
 }
