@@ -1,9 +1,13 @@
 $(document).ready(function(){
-     $(".mouse").mouseover(function(){
-         $("#design-hidden").toggle();
-         $("#design-show").toggle();
+     $("#design-img").click(function(){
+         $("#design-img").toggle().toggle()
+         $("#design").toggle()();
      })
-
+     $("#design-img").click(function(){
+        $("#design").toggle().toggle();
+        $("#design-image").toggle();
+     })
+      $("")
 
     // $("#form").submit(function(event){
     //     event.preventDefault();

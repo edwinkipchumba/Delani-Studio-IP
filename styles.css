@@ -17,7 +17,8 @@
 }
 .delani-logo{
     text-align: center;
-     
+     padding-top: 10%;
+     padding-bottom: 5%;
 }
 .mouse-icon{
     text-align: center;
@@ -31,6 +32,7 @@
     color: white;
     padding-top: 90px;
 }
+
 .service-section{
     background-image: url(assets/backgrounds/s_image.jpg);
     background-size: cover;
@@ -46,26 +48,6 @@
     padding-top: 50px;
 }
 
-.portfolio-container{
-    justify-content: center;
-    margin-top: 10px;
-    align-items: center;
-}
-.portfolio-container h2{
-    text-align: center;
-}
-.portfolio-1st-holder{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 10px;
-    justify-content: space-evenly;
-}
-.portfolio-2nd-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    justify-items: center;
-}
 .details{
     display:flex;
     align-items: center;
@@ -77,6 +59,7 @@
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-color: transparent;
 }
 #form h2{
 text-align: center;
