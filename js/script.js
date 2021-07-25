@@ -2,17 +2,23 @@
 $(document).ready(function(){
     $("#design-img").click(function(){
         $("#design").toggle();
+        $("#design").css("background-color","green")
+
     })
     $("#dev-img").click(function(){
         $("#dev").toggle();
+        $("#dev").css("background-color","blue")
     });
     $("#product-img").click(function(){
         $("#product").toggle();
+        $("#product").css("background-color","grey")
     })
-})
+    // $("#work-4-img").mouseover(function(){
+    //     $("#show").mouseover();
+    // })
 
-// $(document).ready(function(){
-//     event.preventDefault();
+
+
 // const name = document.getElementById("name").val();
 // const email = document.getElementById("email").val();
 // const form = document.getElementById("form").val();
@@ -28,8 +34,11 @@ $(document).ready(function(){
 //         return false;
 //     }  
 //     alert("thank you for contacting us" + name)
-//     alert("we received your message and thank" +name)  
-// }) 
+//     alert("we received your message and thank" +name) 
+})
+
+ 
+
 
 
   
