@@ -1,57 +1,37 @@
-alert(hello)
+
 $(document).ready(function(){
-     $("#design-img").click(function(){
-         $("#design").show();
-     })
-   
-      $("#dev-img").click(function(){
-          $("#dev").show();
-          
-      });
-      $("#product-img").click(function(){
-          $("#product").show();
-
-      })
-      $("#work-4-img").mouseOver(function(){
-        ("#mouse").mouseOver();
-      })
+    $("#design-img").click(function(){
+        $("#design").toggle();
     })
+    $("#dev-img").click(function(){
+        $("#dev").toggle();
+    });
+    $("#product-img").click(function(){
+        $("#product").toggle();
+    })
+})
 
-    // $("#form").submit(function(event){
-    //     event.preventDefault();
-    //     console.log("form has been submitted!");
-    //     var nameInput =$("inputed#name").val();
-    //     var emailInput =$("inputed#mail").val();
-    //     var textareaInput =$("inputed#message").val();
-    //     $("inputed#name").text
-    // })
+// $(document).ready(function(){
+//     event.preventDefault();
+// const name = document.getElementById("name").val();
+// const email = document.getElementById("email").val();
+// const form = document.getElementById("form").val();
+// const message = document.getElementById("message").val();
 
-// const name = document.getElementById("name");
-// const email = document.getElementById("email");
-// const form = document.getElementById("form");
-// const message = document.getElementById("message");
-// const errorElement=document.getElementById("erro");
-
-//   function validate()
-// form.addEventListener("submit"); (e)=>{
-//     e.preventDefault(); 
-//     let messages= [];
-//     if(name.value==="" || name.value===null){
-//         message.push("name is required")  
-//     }
-//    const mailFormat= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-//    if(inputText.value.match(mailFormat)){
-//        Document.form.text.focus();
-//        return true;
+// function form();
+//    if(name==""){
+//        alert("please enter valid name");
+//        return false;
 //    }
-//    else
-//    {
-//        alert("You have entered an invalid email address")
-//        document.form.text.focus();
-//        return false
-//    }
-   
+//     if(email==""){
+//         alert("please enter valid email address")
+//         return false;
+//     }  
+//     alert("thank you for contacting us" + name)
+//     alert("we received your message and thank" +name)  
+// }) 
+
 
   
-// }
+
  
