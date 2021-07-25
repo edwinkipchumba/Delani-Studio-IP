@@ -1,78 +1,107 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-.header-section{
-    background-image: url(assets/backgrounds/h_img.jpg);
+.delani-logo{
+    text-align: center;
+    padding-top: 100px;
+}
+.welcome-section{
+    background-image: url("assets/backgrounds/h_img.jpg");
     background-size: cover;
     height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     
 }
-.welcome{
+.jumbotron-text-center{
     text-align: center; 
-    padding-top: 180px; 
+    padding-top: 30px; 
     color: white;
-    font-weight: bold;
+    font-weight: 800;
+    font-display: bold;
 }
-.delani-logo{
-    text-align: center;
-     padding-top: 10%;
-     padding-bottom: 5%;
-}
+
 .mouse-icon{
     text-align: center;
-    justify-content: first baseline;
+    margin-top: 50px;
 }
 .about-us{
     text-align: center;
 }
-.services{
+.service-section{
     text-align: center;
     color: white;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .service-section{
-    background-image: url(assets/backgrounds/s_image.jpg);
+    background-image: url("assets/backgrounds/s_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
 }
-
-.services-icons{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    padding-top: 50px;
+#design{
+    display: none;
+}
+#dev{
+    display: none;
+}
+#product{
+    display: none;
 }
 
-.details{
+.name-mail{
     display:flex;
     align-items: center;
     justify-content: center;
-    text-shadow: white;
 }
 #form{
     background-image: url("assets/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
-    background-color: transparent;
+    margin-top: 10%;
 }
-#form h2{
-text-align: center;
+#form input{
+background: transparent;
 }
+#form textarea{
+    background: transparent;
+}
+::placeholder{
+    color: white;
+    font-weight: 500;
+}
+#form .text-center{
+    color: white;
+    font-weight: 600;
+}
+
 .social-icon_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 .footer{
     text-align: center;
-}
-@media screen {
+    padding-top: 1%;
     
 }
+@media screen and(max-width: 600px){
+    .overlay{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    
+}
+ @media screen and(max-width: 800px){
+   .overlay{
+      margin-left: 1px;
+      margin-right: 1px;
+   }
+     
+ }
