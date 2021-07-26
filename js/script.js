@@ -1,36 +1,20 @@
-// business logic
+// // business logic
 $(document).ready(function(){
     $("#design-img").click(function(){
         $("#design").toggle();
-        $("#design").css("background-color","green")
+        // $("#design").css("background-color","green")
         
     })
     $("#dev-img").click(function(){
         $("#dev").toggle();
-        $("#dev").css("background-color","blue")
+        // $("#dev").css("background-color","blue")
     });
     $("#product-img").click(function(){
         $("#product").toggle();
-        $("#product").css("background-color","grey")
-    })
+       
+    });
+});
 
-// form validation
- 
-
-
-
-
-//   jquery(function(){
-//     $("#work-4-img").mouseover(function(){
-//         $("#work4-txt").show();
-//         $("#work4-txt").mouseover();
-// })
-// $("#work8-img").mouseover(function(){
-//     ("#work8-text").show();
-//     ("#work8-text").mouseover();
-// })
-// })
-})
 $(document).ready(function(){
     $("#work1-img").mouseover(function(){
         $("#work1-text").show();
@@ -88,18 +72,19 @@ $(document).ready(function(){
         $("#work8-text").hide();
         
     });
-})
-function validate(){
-var name=document.getElementById("name").val();
-var email=document.getElementById("email").val();
-var message=document.getElementById("message").val();
+});
+
+function mainer(){
+var name=document.getElementById('name').value;
+var email=document.getElementById('email').value;
+var message=document.getElementById('message').value;
 
 
- if(name!=="" && name!=="" && message!==""){
+ if(name!=="" && email!=="" && message!==""){
     alert("hello" + name + "" + "thank you contacting us")
- }
-  else if(email=="" || email!=="" || message!==""){
+ } else if(name!=="" || email!=="" || message!==""){
       alert("please enter valid details");
   }
   
 }
+
