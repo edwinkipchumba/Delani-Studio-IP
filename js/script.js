@@ -1,15 +1,16 @@
 // // business logic
 $(document).ready(function(){
-    $("#design-img").click(function(){
+    $(".design1").click(function(){
+        $("#design-img").toggle();
         $("#design").toggle();
-        // $("#design").css("background-color","green")
         
     })
-    $("#dev-img").click(function(){
+    $(".development2").click(function(){
+        $("#dev-img").toggle();
         $("#dev").toggle();
-        // $("#dev").css("background-color","blue")
     });
-    $("#product-img").click(function(){
+    $(".product3").click(function(){
+        $("#product-img").toggle();
         $("#product").toggle();
        
     });
