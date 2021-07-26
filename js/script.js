@@ -84,7 +84,7 @@ var message=document.getElementById('message').value;
 
 
  if(name!=="" && email!=="" && message!==""){
-    alert("hello"  +name + "" + "thank you for contacting us")
+    alert("hello"  +name + " " + "thank you for contacting us")
  } else if(name!=="" || email!=="" || message!==""){
       alert("please enter valid details");
   }
