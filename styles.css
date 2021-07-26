@@ -13,6 +13,9 @@
     background-position: center;
     
 }
+.portfolio-section_part{
+    padding: 10px;
+}
 .jumbotron-text-center{
     text-align: center; 
     padding-top: 30px; 
@@ -52,29 +55,59 @@
 }
 
 
+#work8-text, #work7-text, #work6-text, #work5-text, #work4-text, #work3-text, #work2-text, #work1-text{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.456);
+    position: absolute;
+    padding-top: 50%;
+    top: 2%;
+    left: 4px;
+}
+#work8-img, #work7-img, #work6-img, #work5-img, #work4-img, #work3-img, #work2-img, #work1-img{
+    height: 200px;
+    position: relative;
+    
+}
+
+  
+
 .name-mail{
     display:flex;
     align-items: center;
     justify-content: center;
 }
-#form{
+.contactus{
     background-image: url("assets/backgrounds/c_image.jpg");
     background-position: center;
     background-size: cover;
-    text-align: center;
     margin-top: 5%;
 }
 #form input{
 background: transparent;
 }
-#form textarea{
+ textarea, input{
+     width: 75%;
     background: transparent;
+    border: 1px solid white;
+    
+}
+button{
+    width: auto;
+    background: transparent;
+}
+input[type=text],input[type=email]{
+    width: 35%;
+    padding: 10px 0px;
+    border: 1px solid white;
+    margin: 7px 0px; 
 }
 ::placeholder{
     color: white;
     font-weight: 500;
 }
-#form .text-center{
+#form.text-center{
     color: white;
     font-weight: 600;
 }
