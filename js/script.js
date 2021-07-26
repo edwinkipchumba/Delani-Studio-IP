@@ -15,6 +15,7 @@ $(document).ready(function(){
        
     });
 });
+// user interface
 
 $(document).ready(function(){
     $("#work1-img").mouseover(function(){
@@ -75,6 +76,7 @@ $(document).ready(function(){
     });
 });
 
+
 function mainer(){
 var name=document.getElementById('name').value;
 var email=document.getElementById('email').value;
@@ -82,7 +84,7 @@ var message=document.getElementById('message').value;
 
 
  if(name!=="" && email!=="" && message!==""){
-    alert("hello" + name + "" + "thank you contacting us")
+    alert("hello"  +name + "" + "thank you for contacting us")
  } else if(name!=="" || email!=="" || message!==""){
       alert("please enter valid details");
   }
